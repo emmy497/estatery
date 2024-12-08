@@ -32,7 +32,7 @@ const Hero = () => {
             <p className="font-light">renters</p>
           </div>
         </div>
-        <div>
+        <div className="b">
           <div className="flex flex-col lg:flex-row lg:w-[50%]  bg-[#fff] shadow-2xl p-8 lg:absolute mb-12 mt-12 items-center z-[100]">
             <div  className=" px-2 py-2 bg-[#7065F0]  cursor-pointer rounded-md text-[#fff] mb-8 shadow-2xl"><Link to="/category/rent">PLaces for rent</Link></div>
             <div  className=" px-2 py-2 bg-[#7065F0]  cursor-pointer rounded-md text-[#fff] shadow-2xl"><Link to="/category/sale">Places for sale</Link></div>

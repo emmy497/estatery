@@ -61,12 +61,12 @@ function Profile() {
   }, [auth.currentUser.uid]);
 
   const onLogOut = () => {
-    const confirm = window.confirm('Are you sure you want to log out?')
+   
 
-    if(confirm) {
+
         auth.signOut();
         navigate("/");
-    }
+
    
   };
 
