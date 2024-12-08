@@ -66,11 +66,11 @@ const About = () => {
 
       {/* get landlord email desktop */}
       <div className="flex flex-col items-center bg-[#100A55] p-14 lg:p-10">
-        <div className="text-[#7065F0] mb-6 text-[24px]">No Spam Promise</div>
-        <div className="text-[#FFFFFF] mb-6 text-[40px]">Are you a landlord?</div>
-        <div className="text-[D3D5DA] mb-6 text-[16px] text-[#D3D5DA]" >Discover ways to increase your home's value and  get listed. No Spam.</div>
-        <div>
-            <div className="relative w-[500px] bg-[#fff] p-6 rounded-md shadow-xl items-center">
+        <div className="text-[#7065F0] mb-6 text-[24px] text-center">No Spam Promise</div>
+        <div className="text-[#FFFFFF] mb-6 text-[40px] text-center">Are you a landlord?</div>
+        <div className="text-[D3D5DA] text-center mb-6 text-[16px] text-[#D3D5DA]" >Discover ways to increase your home's value and  get listed. No Spam.</div>
+        <div className=" w-full lg:w-[500px]">
+            <div className="relative   bg-[#fff] p-6 rounded-md shadow-xl items-center">
                 <input type="email" className="max-w-[300px] w-full bg-transparent placeholder:text-slate-400 test-slate-700 text-sm focus:outline-none " placeholder="Email Address "/>
                 <button className="w-[120px] px-2 py-2 bg-[#7065F0] cursor-pointer rounded-md text-[#fff] absolute top-[15px] right-[20px] hover:bg-[#7065F0] ">Submit</button>
             </div>

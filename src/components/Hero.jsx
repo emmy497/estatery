@@ -33,10 +33,10 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <div className="flex flex-col lg:flex-row lg:w-[50%]  bg-[#fff] shadow-2xl p-4 lg:absolute mb-12 mt-12 items-center z-[100]">
-            <div className="mr-0 lg:mr-[70px] md:mr-[150px] cursor-pointer hover:font-bold transition ease-in-out delay-300 "><Link to="/category/rent">PLaces for rent</Link></div>
-            <div className="hover:font-bold transition ease-in-out delay-300  lg:mr-auto cursor-pointer"><Link to="/category/sale">Places for sale</Link></div>
-            <div className="px-2 py-2 bg-[#7065F0] cursor-pointer rounded-md text-[#fff] z-[100]">
+          <div className="flex flex-col lg:flex-row lg:w-[50%]  bg-[#fff] shadow-2xl p-8 lg:absolute mb-12 mt-12 items-center z-[100]">
+            <div  className=" px-2 py-2 bg-[#7065F0]  cursor-pointer rounded-md text-[#fff] mb-8 shadow-2xl"><Link to="/category/rent">PLaces for rent</Link></div>
+            <div  className=" px-2 py-2 bg-[#7065F0]  cursor-pointer rounded-md text-[#fff] shadow-2xl"><Link to="/category/sale">Places for sale</Link></div>
+            <div className=" px-2 py-2 bg-[#7065F0] hidden lg:block cursor-pointer rounded-md text-[#fff] z-[100]">
               Browse properties
             </div>
           </div>

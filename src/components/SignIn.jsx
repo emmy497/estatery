@@ -71,7 +71,7 @@ function SignIn() {
           {/* Password Input Div  */}
           <div className="focus:border-b-3 focus:border-[#5a5959] focus:outline-none mb-6 border-b-2 p-2 relative ">
             <input
-              className="  focus:outline-none z-[1] pr-[50%] lg:pr-[70%] "
+              className="  focus:outline-none z-[1]  lg:pr-[70%] "
               type={showPassword ? "text" : "password"}
               value={password}
               placeholder="Password"
@@ -80,6 +80,7 @@ function SignIn() {
             />
 
             <img
+            className=""
               src={visibilityIcon}
               alt=""
               className="  absolute z-[2] right-0 top-2 cursor-pointer"
