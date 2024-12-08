@@ -94,7 +94,7 @@ function CreateListing() {
 
     if (geolocationEnabled) {
      
-      const response = await fetch(`https://api.distancematrix.ai/maps/api/geocode/json?address=${address}&key=${"yxM51tOy3dU5dfspnMrvJsmwIUjYujiGNw8LWOgQ8pzgD14oqgMuB72fzOZVAfh2"}`);
+      const response = await fetch(`https://api.distancematrix.ai/maps/api/geocode/json?address=${address}&key=${process.env.REACT_APP_GEOCODE_API_KEY}`);
 
       const data = await response.json();
 
