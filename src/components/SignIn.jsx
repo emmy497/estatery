@@ -80,7 +80,6 @@ function SignIn() {
             />
 
             <img
-            className=""
               src={visibilityIcon}
               alt=""
               className="  absolute z-[2] right-0 top-2 cursor-pointer"
